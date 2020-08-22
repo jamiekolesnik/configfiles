@@ -1,5 +1,5 @@
 {
-   "confirmed":[
+   confirmed: [
       "Sommersprossen",
       "inkognito",
       "Marienkäfer",
@@ -2878,6 +2878,11 @@
       "Fühler",
       "Eisbär",
       "Grabmal",
+      ""
+   ],
+   default: [
+      "test",
+      "1234",
       ""
    ]
 }
