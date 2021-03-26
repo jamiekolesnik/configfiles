@@ -123,3 +123,6 @@ export SDKMAN_DIR="/home/jamie/.sdkman"
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
+
+# Kill tmux server with ctrl+d
+trap 'tmux kill-server' EXIT
